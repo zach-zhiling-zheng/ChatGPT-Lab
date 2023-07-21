@@ -1,0 +1,146 @@
+{
+    "ordering": [
+        [
+            "A1",
+            "B1"
+        ],
+        [
+            "A2",
+            "B2"
+        ],
+        [
+            "A3",
+            "B3"
+        ],
+        [
+            "A4",
+            "B4"
+        ]
+    ],
+    "brand": {
+        "brand": "3D Print",
+        "brandId": []
+    },
+    "metadata": {
+        "displayName": "3D Print 8 Tube Rack with vial 20 mL",
+        "displayCategory": "tubeRack",
+        "displayVolumeUnits": "µL",
+        "tags": []
+    },
+    "dimensions": {
+        "xDimension": 127.76,
+        "yDimension": 85.48,
+        "zDimension": 60
+    },
+    "wells": {
+        "A1": {
+            "depth": 60,
+            "totalLiquidVolume": 20000,
+            "shape": "circular",
+            "diameter": 28,
+            "x": 19,
+            "y": 62.48,
+            "z": 0
+        },
+        "B1": {
+            "depth": 60,
+            "totalLiquidVolume": 20000,
+            "shape": "circular",
+            "diameter": 28,
+            "x": 19,
+            "y": 22.48,
+            "z": 0
+        },
+        "A2": {
+            "depth": 60,
+            "totalLiquidVolume": 20000,
+            "shape": "circular",
+            "diameter": 28,
+            "x": 49,
+            "y": 62.48,
+            "z": 0
+        },
+        "B2": {
+            "depth": 60,
+            "totalLiquidVolume": 20000,
+            "shape": "circular",
+            "diameter": 28,
+            "x": 49,
+            "y": 22.48,
+            "z": 0
+        },
+        "A3": {
+            "depth": 60,
+            "totalLiquidVolume": 20000,
+            "shape": "circular",
+            "diameter": 28,
+            "x": 79,
+            "y": 62.48,
+            "z": 0
+        },
+        "B3": {
+            "depth": 60,
+            "totalLiquidVolume": 20000,
+            "shape": "circular",
+            "diameter": 28,
+            "x": 79,
+            "y": 22.48,
+            "z": 0
+        },
+        "A4": {
+            "depth": 60,
+            "totalLiquidVolume": 20000,
+            "shape": "circular",
+            "diameter": 28,
+            "x": 109,
+            "y": 62.48,
+            "z": 0
+        },
+        "B4": {
+            "depth": 60,
+            "totalLiquidVolume": 20000,
+            "shape": "circular",
+            "diameter": 28,
+            "x": 109,
+            "y": 22.48,
+            "z": 0
+        }
+    },
+    "groups": [
+        {
+            "brand": {
+                "brand": "vial",
+                "brandId": []
+            },
+            "metadata": {
+                "wellBottomShape": "flat",
+                "displayCategory": "tubeRack"
+            },
+            "wells": [
+                "A1",
+                "B1",
+                "A2",
+                "B2",
+                "A3",
+                "B3",
+                "A4",
+                "B4"
+            ]
+        }
+    ],
+    "parameters": {
+        "format": "irregular",
+        "quirks": [],
+        "isTiprack": false,
+        "isMagneticModuleCompatible": false,
+        "loadName": "3dprint_8_tuberack_20000ul"
+    },
+    "namespace": "custom_beta",
+    "version": 1,
+    "schemaVersion": 2,
+    "cornerOffsetFromSlot": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    }
+}

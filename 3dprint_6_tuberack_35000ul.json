@@ -1,0 +1,122 @@
+{
+    "ordering": [
+        [
+            "A1",
+            "B1"
+        ],
+        [
+            "A2",
+            "B2"
+        ],
+        [
+            "A3",
+            "B3"
+        ]
+    ],
+    "brand": {
+        "brand": "3D Print",
+        "brandId": []
+    },
+    "metadata": {
+        "displayName": "3D Print 6 Tube Rack with Glass 35 mL",
+        "displayCategory": "tubeRack",
+        "displayVolumeUnits": "µL",
+        "tags": []
+    },
+    "dimensions": {
+        "xDimension": 127.76,
+        "yDimension": 85.48,
+        "zDimension": 100
+    },
+    "wells": {
+        "A1": {
+            "depth": 90,
+            "totalLiquidVolume": 35000,
+            "shape": "circular",
+            "diameter": 24,
+            "x": 23.5,
+            "y": 61.98,
+            "z": 10
+        },
+        "B1": {
+            "depth": 90,
+            "totalLiquidVolume": 35000,
+            "shape": "circular",
+            "diameter": 24,
+            "x": 23.5,
+            "y": 21.98,
+            "z": 10
+        },
+        "A2": {
+            "depth": 90,
+            "totalLiquidVolume": 35000,
+            "shape": "circular",
+            "diameter": 24,
+            "x": 63.5,
+            "y": 61.98,
+            "z": 10
+        },
+        "B2": {
+            "depth": 90,
+            "totalLiquidVolume": 35000,
+            "shape": "circular",
+            "diameter": 24,
+            "x": 63.5,
+            "y": 21.98,
+            "z": 10
+        },
+        "A3": {
+            "depth": 90,
+            "totalLiquidVolume": 35000,
+            "shape": "circular",
+            "diameter": 24,
+            "x": 103.5,
+            "y": 61.98,
+            "z": 10
+        },
+        "B3": {
+            "depth": 90,
+            "totalLiquidVolume": 35000,
+            "shape": "circular",
+            "diameter": 24,
+            "x": 103.5,
+            "y": 21.98,
+            "z": 10
+        }
+    },
+    "groups": [
+        {
+            "brand": {
+                "brand": "Glass",
+                "brandId": []
+            },
+            "metadata": {
+                "wellBottomShape": "u",
+                "displayCategory": "tubeRack"
+            },
+            "wells": [
+                "A1",
+                "B1",
+                "A2",
+                "B2",
+                "A3",
+                "B3"
+            ]
+        }
+    ],
+    "parameters": {
+        "format": "irregular",
+        "quirks": [],
+        "isTiprack": false,
+        "isMagneticModuleCompatible": false,
+        "loadName": "3dprint_6_tuberack_35000ul"
+    },
+    "namespace": "custom_beta",
+    "version": 1,
+    "schemaVersion": 2,
+    "cornerOffsetFromSlot": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    }
+}
